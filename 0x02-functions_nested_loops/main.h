@@ -1,8 +1,6 @@
-#ifndef Main_H
-#define Main_H
+#ifndef H_INCLINED
+#define H_INCLINED
 
 int _putchar(char c);
-void print_alphabet_x10(void);
-
 
 #endif
