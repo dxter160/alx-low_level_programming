@@ -1,21 +1,15 @@
+#include <stdio.h>
 #include "main.h"
 
 /*
- * main - This prints putchar
- * Return = 0 (success)
+ * main - use local header
+ * description: print_putchar
+ * result: 0 (success)
  */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	printf("_putchar\n");
 
 	return (0);
 }
