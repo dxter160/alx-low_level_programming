@@ -8,13 +8,16 @@
 int main(void)
 {
 	char alphabet;
-	alphabet= 'a';
-	_putchar("Lowercase alphabets:\n");
-	while(alphabet<='z')
-	{
-		_putchar("%c ",alphabet);
-		alphabet++
 
+	alphabet = 'a';
+
+	_putchar("Lowercase alphabets:\n");
+
+	while (alphabet <= 'z')
+	{
+		_putchar("%c ", alphabet);
+		alphabet++
+	}
 
 
 	return (0);

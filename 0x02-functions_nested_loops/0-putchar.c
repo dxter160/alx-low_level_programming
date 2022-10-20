@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "main.h"
+#include<stdio.h>
+#include"main.h"
 
 /*
  * main - use local header
@@ -9,6 +9,7 @@
 
 int main(void)
 {
+
 	printf("_putchar\n");
 
 	return (0);
