@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /*
@@ -11,11 +12,11 @@ int main(void)
 
 	alphabet = 'a';
 
-	_putchar("Lowercase alphabets:\n");
+	printf("Lowercase alphabets:\n");
 
 	while (alphabet <= 'z')
 	{
-		_putchar("%c ", alphabet);
+		printf("%c ", alphabet);
 		alphabet++;
 	}
 
