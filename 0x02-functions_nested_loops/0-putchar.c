@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- * Return: Always 0
+ * Return: always 0 (success)
  */
 
 int main(void)
@@ -18,4 +18,6 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+
 }
+
