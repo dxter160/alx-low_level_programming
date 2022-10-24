@@ -3,13 +3,12 @@
 
 /**
  * print_alphabet_x10 - prints 10 times the alphabet, in lowercase.
- * Return: always 0 (success)
+ * Return: always on success 1
  */
 
 void print_alphabet_x10(void)
 {
-	int ten;
-	char i;
+	char i, ten;
 
 	for (i = 'a'; i <= 'z', i++;)
 
