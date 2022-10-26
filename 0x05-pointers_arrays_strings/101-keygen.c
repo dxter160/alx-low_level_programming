@@ -10,26 +10,24 @@
 
 int main(void)
 {
-	int sum = 2772;
-	int n;
+	int pass[100];
+	int i, sum, n;
 
-	srand(time(0));
-	while (sum)
+	sum = 0;
+
+	srand(time(NULL));
+
+	for (i = 0; i < 100; i++)
 	{
-		n = rand() % 100;
-		if (n <= 94)
-		n += 32;
-		else
-			continue;
-		if (sum - n == 0)
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		putchar(pass[i] + '0');
+		if ((2772 - sum) - '0' < 78)
 		{
-			sum -= n;
-			printf("%c"' n);
-		}
-		else if (sum -n -32 > 0)
-		{
-			sum -= n;
-			printf("%c", n);
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
 		}
 	}
 
